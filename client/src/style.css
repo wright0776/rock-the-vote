@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+button {
+    cursor: pointer;
+}
+.menuButton {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.upvote,
+.downvote {
+    width: 100px;
+}
+.upvote {
+    color: forestgreen;
+}
+.downvote {
+    color: firebrick;
+}
+.commentButton {
+    width: 200px;
+}
+
+/* header */
+
+.header {
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 10px;
+}
+
+/* app */
+
+.app {
+    background: #aaa;
+    padding: 15px 10px;
+    min-height: 100vh;
+}
+
+/* issue list */
+
+.issuesListCont {
+    background: transparent;
+}
+.issuesList {
+    background: transparent;
+}
+
+/* single issue */
+.issue {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: .3em;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #eee;
+}
+.issue h1,
+.issue h2 {
+    margin: 0;
+}
